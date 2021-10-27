@@ -2,7 +2,7 @@
 
 📢 Use this project, [contribute](https://github.com/vtex-apps/buybox-context) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-# Buybox Context
+# Buybox Context 
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
