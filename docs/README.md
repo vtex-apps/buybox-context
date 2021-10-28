@@ -10,7 +10,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- DOCS-IGNORE:end -->
+<!-- DOCS-IGNORE:end --> 
 
 Buybox context is a component to add the possibility to sort the sellers of a product that is sold by multiple sellers.
 When Buybox context wrap a Product context, it change the ordenation of sellers and set the new `sellerDefault` on seller list of current product.
