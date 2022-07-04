@@ -25,7 +25,7 @@ In this section, you first must **add the primary instructions** that will allow
   }
 ```
 
-> 📢 If do you want use the [vtex.seller-selector](https://github.com/vtex-apps/seller-selector) app to boost your development, you can add it as a dependency in the `manifest.json` file
+> 📢 If you want to use the [vtex.seller-selector](https://github.com/vtex-apps/seller-selector) app to boost your development, you can add it as a dependency in the `manifest.json` file
 >
 > ```json
 >    "dependencies": {
