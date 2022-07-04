@@ -1,0 +1,15 @@
+{
+  "name": "Buybox",
+  "headline": "Exiba o produto com diferentes vendedores, elegendo a melhor oferta",
+  "overview": "Com esse aplicativo será possível configurar regras de eligibilidade de vendedores para o produto, e exibir o produto com a melhor oferta para o cliente.",
+  "additionalInformation": "Após a instalação desse aplicativo ele deve ser configurado no tema da loja, dentro de um contexto de produto.",
+  "features": [
+    "Ordene os vendedores de um produto de forma personalizada",
+    "Monte sua própria ordenação utilizando expressões com atributos do produto",
+    "Flexibilidade para utilizar ordenações predefinidas ou customizadas"
+  ],
+  "websiteURL": "https://vtex.com/",
+  "support": {
+    "url": "https://support.vtex.com/hc/requests"
+  }
+}
