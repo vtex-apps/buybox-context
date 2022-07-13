@@ -2,7 +2,7 @@
   {
     "source": "/messages/en.json",
     "translation": "/%original_path%/%two_letters_code%.json",
-  }
+  },
   {
     "source": "/public/metadata/messages/en-US.json",
     "translation": "/%original_path%/%locale%.%file_extension%",

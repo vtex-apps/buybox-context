@@ -22,5 +22,12 @@
   },
   "registries": ["smartcheckout"],
   "policies": [],
+  "billingOptions": {
+    "type": "free",
+    "availableCountries": ["*"],
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
