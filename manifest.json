@@ -1,7 +1,7 @@
 {
   "vendor": "vtexbr",
   "name": "buybox-context",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "title": "Buybox context",
   "description": "Context with product features",
   "builders": {
@@ -20,15 +20,11 @@
     "vtex.buybox-graphql": "0.x",
     "vtex.store": "2.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [],
   "billingOptions": {
     "type": "free",
-    "availableCountries": [
-      "*"
-    ],
+    "availableCountries": ["*"],
     "support": {
       "url": "https://support.vtex.com/hc/requests"
     }
