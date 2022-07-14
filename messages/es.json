@@ -1,0 +1,16 @@
+{
+  "buybox-context.title": "Buybox Context",
+  "buybox-context.sortStrategy-title": "Estrategia de ordenación",
+  "buybox-context.sortStrategy-description": "Configura la estrategia para clasificar los sellers en el Buybox",
+  "buybox-context.triggerCepChangeEvent-title": "Activar evento de cambio de código postal",
+  "buybox-context.triggerCepChangeEvent-description": "Configura qué evento se utilizará para clasificar los sellers en el Buybox",
+  "buybox-context.price.label": "Precio",
+  "buybox-context.price-and-shipping.label": "Precio y envío",
+  "buybox-context.custom-expression": "Expresión personalizada",
+  "buybox-context.protocol": "Protocolo",
+  "buybox-context.order-form.label": "Formulario de pedido",
+  "buybox-context.seller-selector.label": "Selector de sellers",
+  "buybox-context.expression-title": "Expresión",
+  "buybox-context.expression-description": "Configura expresiones para clasificar los sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "buybox-context.protocol-error": "Se produjo un error al ejecutar el protocolo de ordenación y se cambió la estrategia de ordenación a precio."
+}

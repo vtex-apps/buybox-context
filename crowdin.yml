@@ -1,3 +1,20 @@
-files:
-  - source: /messages/en.json
-    translation: /messages/%two_letters_code%.json
+"files": [
+  {
+    "source": "/messages/en.json",
+    "translation": "/%original_path%/%two_letters_code%.json",
+  },
+  {
+    "source": "/public/metadata/messages/en-US.json",
+    "translation": "/%original_path%/%locale%.%file_extension%",
+    "excluded_target_languages": [
+      "bg",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "ro",
+      "th"
+    ]
+  }
+]

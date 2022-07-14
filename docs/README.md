@@ -21,9 +21,17 @@ In this section, you first must **add the primary instructions** that will allow
 
 ```json
   "dependencies": {
-    "vtex.buybox-context": "0.x"
+    "vtexbr.buybox-context": "0.x"
   }
 ```
+
+> 📢 If you want to use the [vtex.seller-selector](https://github.com/vtex-apps/seller-selector) app to boost your development, you can add it as a dependency in the `manifest.json` file
+>
+> ```json
+>    "dependencies": {
+>      "vtex.seller-selector": "0.x"
+>    }
+> ```
 
 2. Wrap a block that uses the [`Product Context`](https://github.com/vtex-apps/product-context) and configure the `sortStrategy` that will be used to sort the sellers.
 

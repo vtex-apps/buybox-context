@@ -1,0 +1,16 @@
+{
+  "buybox-context.title": "Контекст на Buybox",
+  "buybox-context.sortStrategy-title": "Стратегия за сортиране",
+  "buybox-context.sortStrategy-description": "Конфигуриране на стратегията за сортиране на продавачи в buybox",
+  "buybox-context.triggerCepChangeEvent-title": "Активиране на събитие за промяна на CEP",
+  "buybox-context.triggerCepChangeEvent-description": "Конфигуриране на това кое събитие ще се използва за сортиране на продавачи в buybox",
+  "buybox-context.price.label": "Цена",
+  "buybox-context.price-and-shipping.label": "Цена и доставка",
+  "buybox-context.custom-expression": "Експресии по избор",
+  "buybox-context.protocol": "Протокол",
+  "buybox-context.order-form.label": "Формуляр за поръчка",
+  "buybox-context.seller-selector.label": "Селектор на продавач",
+  "buybox-context.expression-title": "Експресия",
+  "buybox-context.expression-description": "Конфигуриране на експресиите за сортиране на продавачи: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "buybox-context.protocol-error": "Възникна грешка при изпълнението на протокола за сортиране и стратегията за сортиране беше променена на цена."
+}

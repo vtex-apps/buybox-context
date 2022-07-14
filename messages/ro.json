@@ -1,0 +1,16 @@
+{
+  "buybox-context.title": "Context Buybox",
+  "buybox-context.sortStrategy-title": "Strategie de sortare",
+  "buybox-context.sortStrategy-description": "Configurare strategie pentru sortarea comercianților în Buybox",
+  "buybox-context.triggerCepChangeEvent-title": "Declanșare eveniment schimbare CEP",
+  "buybox-context.triggerCepChangeEvent-description": "Configurare eveniment de utilizat pentru sortarea comercianților în caseta de cumpărare",
+  "buybox-context.price.label": "Preț",
+  "buybox-context.price-and-shipping.label": "Preț și livrare",
+  "buybox-context.custom-expression": "Expresie personalizată",
+  "buybox-context.protocol": "Protocol",
+  "buybox-context.order-form.label": "Formular de comandă",
+  "buybox-context.seller-selector.label": "Selector comerciant",
+  "buybox-context.expression-title": "Expresie",
+  "buybox-context.expression-description": "Configurează expresiile pentru a sorta comercianții: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "buybox-context.protocol-error": "A apărut o eroare la executarea Protocolului de sortare și Strategia de sortare a fost schimbată în Preț."
+}
