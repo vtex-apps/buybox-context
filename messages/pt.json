@@ -1,16 +1,16 @@
 {
-  "buybox-context.title": "Contexto de Buybox",
+  "buybox-context.title": "Contexto da Buybox",
   "buybox-context.sortStrategy-title": "Estratégia de ordenação",
-  "buybox-context.sortStrategy-description": "Configure a estratégia para ordenar os vendedores na buybox",
-  "buybox-context.triggerCepChangeEvent-title": "Evento de mudança de CEP",
-  "buybox-context.triggerCepChangeEvent-description": "Configure qual evento será usado para classificar os vendedores na buybox",
+  "buybox-context.sortStrategy-description": "Configure a estratégia para ordenar os sellers na Buybox",
+  "buybox-context.triggerCepChangeEvent-title": "Acionar evento de mudança de CEP",
+  "buybox-context.triggerCepChangeEvent-description": "Configure o evento que será usado para ordenar os sellers na Buybox",
   "buybox-context.price.label": "Preço",
-  "buybox-context.price-and-shipping.label": "Preço e Frete",
-  "buybox-context.custom-expression": "Expressão Customizada",
+  "buybox-context.price-and-shipping.label": "Preço e frete",
+  "buybox-context.custom-expression": "Expressão personalizada",
   "buybox-context.protocol": "Protocolo",
-  "buybox-context.order-form.label": "Order Form",
-  "buybox-context.seller-selector.label": "Seller Selector",
+  "buybox-context.order-form.label": "Formulário de pedido",
+  "buybox-context.seller-selector.label": "Seletor de sellers",
   "buybox-context.expression-title": "Expressão",
-  "buybox-context.expression-description": "Configure expressões para ordenar os vendedores: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
-  "buybox-context.protocol-error": "Ocorreu um erro na execução do Protocolo de ordenação e a Estratégia de ordenação foi alterada para Preço."
+  "buybox-context.expression-description": "Configure as expressões para ordenar os sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimateordenar",
+  "buybox-context.protocol-error": "Ocorreu um erro ao executar o protocolo de ordenação e a estratégia de ordenação foi alterada para preço."
 }

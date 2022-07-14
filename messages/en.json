@@ -1,9 +1,9 @@
 {
   "buybox-context.title": "Buybox Context",
-  "buybox-context.sortStrategy-title": "Sort Strategy",
-  "buybox-context.sortStrategy-description": "Configure strategy to sort sellers on buybox",
-  "buybox-context.triggerCepChangeEvent-title": "Trigger CEP change event",
-  "buybox-context.triggerCepChangeEvent-description": "Configure which event will be used to sort sellers on buybox",
+  "buybox-context.sortStrategy-title": "Sorting Strategy",
+  "buybox-context.sortStrategy-description": "Configure the strategy to rank sellers in the Buybox",
+  "buybox-context.triggerCepChangeEvent-title": "Trigger postal code change event",
+  "buybox-context.triggerCepChangeEvent-description": "Configure which event will be used to rank sellers in the Buybox",
   "buybox-context.price.label": "Price",
   "buybox-context.price-and-shipping.label": "Price and Shipping",
   "buybox-context.custom-expression": "Custom Expression",
@@ -11,6 +11,6 @@
   "buybox-context.order-form.label": "Order Form",
   "buybox-context.seller-selector.label": "Seller Selector",
   "buybox-context.expression-title": "Expression",
-  "buybox-context.expression-description": "Configure expressions to sort sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
-  "buybox-context.protocol-error": "An error ocurred on execute Sort Protocol and the Sort Strategy was changed to Price."
+  "buybox-context.expression-description": "Configure expressions to rank sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "buybox-context.protocol-error": "An error ocurred while executing the sorting protocol and the sorting strategy was changed to price."
 }

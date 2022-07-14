@@ -1,0 +1,16 @@
+{
+  "buybox-context.title": "บริบทของ Buybox",
+  "buybox-context.sortStrategy-title": "กลยุทธ์การคัดแยก",
+  "buybox-context.sortStrategy-description": "กำหนดค่ากลยุทธ์เพื่อคัดแยกผู้ขายใน Buybox",
+  "buybox-context.triggerCepChangeEvent-title": "กระตุ้นเหตุการณ์การเปลี่ยนแปลงใน CEP",
+  "buybox-context.triggerCepChangeEvent-description": "กำหนดค่าว่าจะใช้เหตุการณ์ใดเป็นตัวคัดแยกผู้ขายใน Buybox",
+  "buybox-context.price.label": "ราคา",
+  "buybox-context.price-and-shipping.label": "ราคาและการขนส่ง",
+  "buybox-context.custom-expression": "Expression ที่กำหนดเอง",
+  "buybox-context.protocol": "โปรโตคอล",
+  "buybox-context.order-form.label": "แบบฟอร์มคำสั่ง",
+  "buybox-context.seller-selector.label": "ผู้ขายที่มีให้เลือก",
+  "buybox-context.expression-title": "Expression",
+  "buybox-context.expression-description": "กำหนดค่า Expression ที่จะคัดแยกผู้ขาย: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "buybox-context.protocol-error": "เกิดข้อผิดพลาดเมื่อทำรายการโปรโตคอลการคัดแยก และมีการเปลี่ยนกลยุทธ์การคัดแยกไปที่ราคา"
+}
