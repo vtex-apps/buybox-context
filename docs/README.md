@@ -21,7 +21,7 @@ In this section, you first must **add the primary instructions** that will allow
 
 ```json
   "dependencies": {
-    "vtexbr.buybox-context": "0.x"
+    "vtexbr.buybox-context": "1.x"
   }
 ```
 
@@ -53,19 +53,18 @@ Now, you are able to use all the blocks exported by the `buybox-context` app. Ch
 
 ### `buybox-context` props
 
-| Prop name               | Type    | Description                                                                                                                                                                                                        | Default value |
-| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| `conditionalStrategy`          | `object`  | Object responsible to provide the sort strategy and custom expresions.                                                                                             | `undefined`   |
-| `triggerCepChangeEvent` | `enum`  | The Buybox Context depends on CEP event to get Sellers of Product. Depending on context the Buybox Context is used, you can select what this component will be listening to intercept changes and reorder sellers. | `"orderForm"` |
-| `children`              | `array` | Array with `block` components, that use the `Product Context` to sort sellers.                                                                                                                                     | `null`        |
+| Prop name               | Type     | Description                                                                                                                                                                                                        | Default value |
+| ----------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
+| `conditionalStrategy`   | `object` | Object responsible to provide the sort strategy and custom expresions.                                                                                                                                             | `undefined`   |
+| `triggerCepChangeEvent` | `enum`   | The Buybox Context depends on CEP event to get Sellers of Product. Depending on context the Buybox Context is used, you can select what this component will be listening to intercept changes and reorder sellers. | `"orderForm"` |
+| `children`              | `array`  | Array with `block` components, that use the `Product Context` to sort sellers.                                                                                                                                     | `null`        |
 
 - `conditionalStrategy` props
 
-| Prop name               | Type    | Description                                                                                                                                                                                                        | Default value |
-| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| `sortStrategy`          | `enum`  | Use to select which sort strategy will be used to sort the sellers. If this prop isn't informed, nothing will be done.                                                                                             | `undefined`   |
-| `expression` | `string`  | Custom expression based on a math expression, with predefined [`variables`](#custom-expression-variables). The lowest value resultant of this expression, will be positioned at the top of the sellers list. For more details about how to create expressions, click [here](https://github.com/silentmatt/expr-eval#readme). | `undefined` |
-
+| Prop name      | Type     | Description                                                                                                                                                                                                                                                                                                                  | Default value |
+| -------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `sortStrategy` | `enum`   | Use to select which sort strategy will be used to sort the sellers. If this prop isn't informed, nothing will be done.                                                                                                                                                                                                       | `undefined`   |
+| `expression`   | `string` | Custom expression based on a math expression, with predefined [`variables`](#custom-expression-variables). The lowest value resultant of this expression, will be positioned at the top of the sellers list. For more details about how to create expressions, click [here](https://github.com/silentmatt/expr-eval#readme). | `undefined`   |
 
 - `sortStrategy` enum:
   | Prop name | Type | Description |
