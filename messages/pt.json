@@ -11,6 +11,6 @@
   "buybox-context.order-form.label": "Formulário de pedido",
   "buybox-context.seller-selector.label": "Seletor de sellers",
   "buybox-context.expression-title": "Expressão",
-  "buybox-context.expression-description": "Configure as expressões para ordenar os sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimateordenar",
+  "buybox-context.expression-description": "Configure as expressões para ordenar os sellers: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
   "buybox-context.protocol-error": "Ocorreu um erro ao executar o protocolo de ordenação e a estratégia de ordenação foi alterada para preço."
 }
