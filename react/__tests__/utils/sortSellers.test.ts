@@ -8,6 +8,8 @@ import {
 import {
   unsortedSellersMock,
   unsortedSellersShippingMock,
+  sortedSellerLogisticsInfoMock,
+  unsortedSellerLogisticsInfoMock,
 } from '../../__mocks__/sellers'
 
 describe('sortSellersByPrice', () => {
@@ -434,5 +436,31 @@ describe('sortSellersByCustomExpression', () => {
     // assert
     expect(sortedSellers).toStrictEqual(expected)
     expect(console.error).toBeCalledTimes(1)
+  })
+
+  it('should sort by SLA correctly when the price is of SLA is 0.00 and shipping estimate is bigger', () => {
+    // arrange
+    const expression = 'minShippingEstimate * 100000 + maxShippingPrice'
+
+    // act
+    const sortedSellers = sortSellersByCustomExpression(
+      unsortedSellerLogisticsInfoMock,
+      expression
+    )
+
+    // assert
+    const SLAs = sortedSellers
+      .filter((seller) => seller.logisticsInfo?.slas.length)
+      .map((sla, index) => {
+        return {
+          ...sla,
+          seller: {
+            ...sla.seller,
+            sellerDefault: index === 0,
+          },
+        }
+      })
+
+    expect(SLAs).toEqual(sortedSellerLogisticsInfoMock)
   })
 })

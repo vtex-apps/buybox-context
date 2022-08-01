@@ -354,4 +354,431 @@ const unsortedSellersShippingMock = [
   },
 ] as SellerLogisticsInfoResult[]
 
-export { unsortedSellersMock, unsortedSellersShippingMock }
+const unsortedSellerLogisticsInfoMock = [
+  {
+    seller: {
+      sellerId: 'rjriodejaneirocasashopping099',
+      sellerName: 'Loja IWS - Casa Shopping (RJ)',
+      sellerDefault: true,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=rjriodejaneirocasashopping099&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 2,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 0,
+      slas: [
+        {
+          id: 'PAC',
+          name: 'PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'SEDEX',
+          name: 'SEDEX',
+          price: 3188,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwslourdesbh573',
+      sellerName: 'Loja IWS - Lourdes (BH)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwslourdesbh573&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 3,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 1,
+      slas: [
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 3180,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwscampinassp719',
+      sellerName: 'Loja IWS - Campinas (SP)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwscampinassp719&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 4,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 2,
+      slas: [
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 0,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwssilvianobrandaobh935',
+      sellerName: 'Loja IWS - Silviano Brandão (BH)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwssilvianobrandaobh935&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 5,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 3,
+      slas: [
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 3180,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwscampograndems217',
+      sellerName: 'Loja IWS - Campo Grande (MS)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwscampograndems217&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 1,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 4,
+      slas: [
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '7bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 4416,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+] as SellerLogisticsInfoResult[]
+
+const sortedSellerLogisticsInfoMock = [
+  {
+    seller: {
+      sellerId: 'lojaiwscampinassp719',
+      sellerName: 'Loja IWS - Campinas (SP)',
+      sellerDefault: true,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwscampinassp719&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 4,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 2,
+      slas: [
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 0,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwslourdesbh573',
+      sellerName: 'Loja IWS - Lourdes (BH)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwslourdesbh573&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 3,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 1,
+      slas: [
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 3180,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwssilvianobrandaobh935',
+      sellerName: 'Loja IWS - Silviano Brandão (BH)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwssilvianobrandaobh935&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 5,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 3,
+      slas: [
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 3180,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'rjriodejaneirocasashopping099',
+      sellerName: 'Loja IWS - Casa Shopping (RJ)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=rjriodejaneirocasashopping099&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 2,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 0,
+      slas: [
+        {
+          id: 'SEDEX',
+          name: 'SEDEX',
+          price: 3188,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'PAC',
+          name: 'PAC',
+          price: 0,
+          shippingEstimate: '6bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+  {
+    seller: {
+      sellerId: 'lojaiwscampograndems217',
+      sellerName: 'Loja IWS - Campo Grande (MS)',
+      sellerDefault: false,
+      addToCartLink:
+        'https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=240&qty=1&seller=lojaiwscampograndems217&sc=1&price=8990&cv=E856A167161640718AB90DD345A81A7E_&sc=1',
+      commertialOffer: {
+        discountHighlights: [],
+        teasers: [],
+        Price: 89.9,
+        ListPrice: 89.9,
+        Tax: 0,
+        taxPercentage: 0,
+        spotPrice: 89.9,
+        PriceWithoutDiscount: 89.9,
+        RewardValue: 0,
+        PriceValidUntil: '2023-07-29T13:35:37Z',
+        AvailableQuantity: 1,
+        CacheVersionUsedToCallCheckout: 'E856A167161640718AB90DD345A81A7E_',
+        Installments: [],
+      },
+    },
+    logisticsInfo: {
+      itemIndex: 4,
+      slas: [
+        {
+          id: 'Correios - SEDEX',
+          name: 'Correios - SEDEX',
+          price: 4416,
+          shippingEstimate: '2bd',
+          shippingEstimateDate: '',
+        },
+        {
+          id: 'Correios - PAC',
+          name: 'Correios - PAC',
+          price: 0,
+          shippingEstimate: '7bd',
+          shippingEstimateDate: '',
+        },
+      ],
+    },
+  },
+] as SellerLogisticsInfoResult[]
+
+export {
+  unsortedSellersMock,
+  unsortedSellersShippingMock,
+  unsortedSellerLogisticsInfoMock,
+  sortedSellerLogisticsInfoMock,
+}
