@@ -99,11 +99,11 @@ const expressionVariables: ExpressionVariablesDictionaryType = {
   productAvailableQuantity: (seller: Seller, _logisticsInfo?: LogisticsInfo) =>
     seller.commertialOffer.AvailableQuantity,
   minShippingPrice: (_seller: Seller, logisticsInfo?: LogisticsInfo) =>
-    logisticsInfo?.slas[0]?.price
+    logisticsInfo?.slas[0]?.price !== undefined
       ? sortSLAByField.minPrice(logisticsInfo?.slas)[0]?.price / 100
       : undefined,
   maxShippingPrice: (_seller: Seller, logisticsInfo?: LogisticsInfo) =>
-    logisticsInfo?.slas[0]?.price
+    logisticsInfo?.slas[0]?.price !== undefined
       ? sortSLAByField.maxPrice(logisticsInfo?.slas)[0]?.price / 100
       : undefined,
   minShippingEstimate: (_seller: Seller, logisticsInfo?: LogisticsInfo) => {
