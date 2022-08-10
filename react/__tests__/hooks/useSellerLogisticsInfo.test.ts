@@ -100,4 +100,33 @@ describe('useNewProductWithSellers', () => {
       shippingData.shipping.logisticsInfo[1]
     )
   })
+
+  it('should return correctly when got error to find logistcInfo', async () => {
+    // arrange
+    jest
+      .spyOn(reactapollo, 'useLazyQuery')
+      .mockImplementation()
+      .mockReturnValue([
+        jest.fn(),
+        {
+          error: new Error(),
+          refetch: jest.fn(),
+        },
+      ] as any)
+
+    // act
+    const {
+      result: { current: sellersInfoResult },
+    } = renderHook(() => useSellerLogisticsInfo())
+
+    // assert
+    expect(sellersInfoResult[0].seller).toStrictEqual(
+      productContextState.selectedItem?.sellers[0]
+    )
+    expect(sellersInfoResult[0].logisticsInfo).toBeUndefined()
+    expect(sellersInfoResult[1].seller).toStrictEqual(
+      productContextState.selectedItem?.sellers[1]
+    )
+    expect(sellersInfoResult[1].logisticsInfo).toBeUndefined()
+  })
 })

@@ -13,7 +13,7 @@ export const useSellerLogisticsInfo = (): SellerLogisticsInfoResult[] => {
   const { selectedItem, selectedQuantity } = useProduct() ?? {}
   const orderFormContext = OrderForm?.useOrderForm() ?? {}
 
-  const [updateShippingQuotes, { data: shippingData }] = useLazyQuery<{
+  const [updateShippingQuotes, { data: shippingData, error }] = useLazyQuery<{
     shipping: ShippingQuote
   }>(SimulateShippingQuery)
 
@@ -67,12 +67,23 @@ export const useSellerLogisticsInfo = (): SellerLogisticsInfoResult[] => {
     updateShippingQuotes({ variables: { ...variables } })
   }, [updateShippingQuotes, variables])
 
-  return availableSellers && logisticsInfo
-    ? availableSellers.map((seller, index) => {
-        return {
-          seller,
-          logisticsInfo: logisticsInfo[index],
-        }
-      })
-    : []
+  if (availableSellers && logisticsInfo) {
+    return availableSellers.map((seller, index) => {
+      return {
+        seller,
+        logisticsInfo: logisticsInfo[index],
+      }
+    })
+  }
+
+  if (availableSellers && error) {
+    return availableSellers.map((seller) => {
+      return {
+        seller,
+        logisticsInfo: undefined,
+      }
+    })
+  }
+
+  return []
 }
