@@ -5,27 +5,27 @@ export const messages: {
   [name: string]: MessageDescriptor
 } = defineMessages({
   title: {
-    id: 'buybox-context.title',
+    id: '"admin/buybox-context.title',
   },
   sortStrategyTitle: {
-    id: 'buybox-context.sortStrategy-title',
+    id: '"admin/buybox-context.sortStrategy-title',
   },
   sortStrategyDescription: {
-    id: 'buybox-context.sortStrategy-description',
+    id: '"admin/buybox-context.sortStrategy-description',
   },
   triggerCepChangeEventTitle: {
-    id: 'buybox-context.triggerCepChangeEvent-title',
+    id: '"admin/buybox-context.triggerCepChangeEvent-title',
   },
   triggerCepChangeEventDescription: {
-    id: 'buybox-context.triggerCepChangeEvent-description',
+    id: '"admin/buybox-context.triggerCepChangeEvent-description',
   },
   expressionTitle: {
-    id: 'buybox-context.expression-title',
+    id: '"admin/buybox-context.expression-title',
   },
   expressionDescription: {
-    id: 'buybox-context.expression-description',
+    id: '"admin/buybox-context.expression-description',
   },
   protocolError: {
-    id: 'buybox-context.protocol-error',
+    id: '"admin/buybox-context.protocol-error',
   },
 })
