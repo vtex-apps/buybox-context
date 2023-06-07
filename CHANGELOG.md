@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2023-06-07
+
 ### Fixed
 
 - Fix messages standardization to fit localization process as set in the [developers portal](https://developers.vtex.com/docs/guides/vtex-io-documentation-8-translating-the-component).
