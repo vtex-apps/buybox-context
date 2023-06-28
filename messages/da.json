@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Buybox-kontekst",
+  "store/buybox-context.sortStrategy-title": "Sorteringsstrategi",
+  "store/buybox-context.sortStrategy-description": "Konfigurer strategien til at rangordne sælgere i Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Udløser postnummerændringshændelse",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurer, hvilken begivenhed der skal bruges til at rangordne sælgere i Buybox",
+  "store/buybox-context.price.label": "Pris",
+  "store/buybox-context.price-and-shipping.label": "Pris og forsendelse",
+  "store/buybox-context.custom-expression": "Brugerdefineret udtryk",
+  "store/buybox-context.protocol": "Protokol",
+  "store/buybox-context.order-form.label": "Ordreformular",
+  "store/buybox-context.seller-selector.label": "Sælgervælger",
+  "store/buybox-context.expression-title": "Udtryk",
+  "store/buybox-context.expression-description": "Konfigurer udtryk til at rangordne sælgere: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Der opstod en fejl under udførelsen af sorteringsprotokollen, og sorteringsstrategien blev ændret til pris."
+}
