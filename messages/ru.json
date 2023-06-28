@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Содержимое области Buybox",
+  "store/buybox-context.sortStrategy-title": "Стратегия сортировки",
+  "store/buybox-context.sortStrategy-description": "Настройте стратегию рейтинга продавцов в Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Запуск события изменения почтового кода",
+  "store/buybox-context.triggerCepChangeEvent-description": "Настройте, какое событие будет использоваться для рейтинга продавцов в Buybox",
+  "store/buybox-context.price.label": "Цена",
+  "store/buybox-context.price-and-shipping.label": "Цена и доставка",
+  "store/buybox-context.custom-expression": "Пользовательское выражение",
+  "store/buybox-context.protocol": "Протокол",
+  "store/buybox-context.order-form.label": "Форма заказа",
+  "store/buybox-context.seller-selector.label": "Селектор продавцов",
+  "store/buybox-context.expression-title": "Выражение",
+  "store/buybox-context.expression-description": "Настройте выражения для рейтинга продавцов: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "При выполнении протокола сортировки произошла ошибка, и стратегия сортировки была изменена на ценовую."
+}
