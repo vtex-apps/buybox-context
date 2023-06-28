@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Вміст області Buybox",
+  "store/buybox-context.sortStrategy-title": "Стратегія сортування",
+  "store/buybox-context.sortStrategy-description": "Налаштуйте стратегію рейтингу продавців у Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Запуск події зміни поштового коду",
+  "store/buybox-context.triggerCepChangeEvent-description": "Налаштуйте, яку подію використовуватимуть для рейтингу продавців у Buybox",
+  "store/buybox-context.price.label": "Ціна",
+  "store/buybox-context.price-and-shipping.label": "Ціна та доставка",
+  "store/buybox-context.custom-expression": "Користувацький вираз",
+  "store/buybox-context.protocol": "Протокол",
+  "store/buybox-context.order-form.label": "Форма замовлення",
+  "store/buybox-context.seller-selector.label": "Селектор продавців",
+  "store/buybox-context.expression-title": "Вираз",
+  "store/buybox-context.expression-description": "Налаштуйте вирази для рейтингу продавців: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Під час виконання протоколу сортування сталася помилка, і стратегію сортування було змінено на цінову."
+}
