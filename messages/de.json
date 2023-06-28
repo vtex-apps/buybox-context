@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Buybox-Kontext",
+  "store/buybox-context.sortStrategy-title": "Sortierstrategie",
+  "store/buybox-context.sortStrategy-description": "Konfigurieren Sie die Strategie zur Einstufung von Verkäufern in der Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Postleitzahlwechsel auslösen",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurieren Sie, welches Ereignis verwendet wird, um Verkäufer in der Buybox zu klassifizieren",
+  "store/buybox-context.price.label": "Preis",
+  "store/buybox-context.price-and-shipping.label": "Preis und Versand",
+  "store/buybox-context.custom-expression": "Benutzerdefinierter Ausdruck",
+  "store/buybox-context.protocol": "Protokoll",
+  "store/buybox-context.order-form.label": "Bestellformular",
+  "store/buybox-context.seller-selector.label": "Verkäuferauswahl",
+  "store/buybox-context.expression-title": "Ausdruck",
+  "store/buybox-context.expression-description": "Konfigurieren Sie Ausdrücke zur Einstufung von Verkäufern: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Bei der Ausführung des Sortierprotokolls ist ein Fehler aufgetreten und die Sortierstrategie wurde auf Preis geändert."
+}
