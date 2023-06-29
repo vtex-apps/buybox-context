@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Kontext služby Buybox",
+  "store/buybox-context.sortStrategy-title": "Stratégia triedenia",
+  "store/buybox-context.sortStrategy-description": "Konfigurácia stratégie na radenie predajcov v služe Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Spustenie udalosti zmeny poštového smerovacieho čísla",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurácia udalosti, ktorá sa použije na radenie predajcov v službe Buybox",
+  "store/buybox-context.price.label": "Cena",
+  "store/buybox-context.price-and-shipping.label": "Cena a doprava",
+  "store/buybox-context.custom-expression": "Vlastný výraz",
+  "store/buybox-context.protocol": "Protokol",
+  "store/buybox-context.order-form.label": "Objednávkovy formulár",
+  "store/buybox-context.seller-selector.label": "Výber predajcu",
+  "store/buybox-context.expression-title": "Výraz",
+  "store/buybox-context.expression-description": "Konfigurácia výrazov na radenie predajcov: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Pri vykonávaní triediaceho protokolu sa vyskytla chyba a stratégia triedenia bola zmenená na cenu."
+}
