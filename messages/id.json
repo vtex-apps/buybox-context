@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Konteks Buybox",
+  "store/buybox-context.sortStrategy-title": "Strategi Penyortiran",
+  "store/buybox-context.sortStrategy-description": "Konfigurasi strategi untuk memeringkat penjual di Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Picu event perubahan kode pos",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurasi event mana yang akan digunakan untuk memeringkat penjual di Buybox",
+  "store/buybox-context.price.label": "Harga",
+  "store/buybox-context.price-and-shipping.label": "Harga dan Pengiriman",
+  "store/buybox-context.custom-expression": "Ekspresi Kustom",
+  "store/buybox-context.protocol": "Protokol",
+  "store/buybox-context.order-form.label": "Formulir Pesanan",
+  "store/buybox-context.seller-selector.label": "Pemilih Penjual",
+  "store/buybox-context.expression-title": "Ekspresi",
+  "store/buybox-context.expression-description": "Konfigurasi ekspresi untuk memeringkat penjual: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Terjadi kesalahan saat menjalankan protokol penyortiran dan strategi penyortiran diubah harganya."
+}
