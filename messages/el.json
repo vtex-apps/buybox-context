@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Πλαίσιο Buybox",
+  "store/buybox-context.sortStrategy-title": "Στρατηγική Ταξινόμησης",
+  "store/buybox-context.sortStrategy-description": "Παραμετροποίηση στρατηγικής για την κατάταξη των πωλητών στο Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Ενεργοποίηση συμβάντος αλλαγής ταχυδρομικού κώδικα",
+  "store/buybox-context.triggerCepChangeEvent-description": "Παραμετροποίηση συμβάντος που θα χρησιμοποιηθεί για την κατάταξη των πωλητών στο Buybox",
+  "store/buybox-context.price.label": "Τιμή",
+  "store/buybox-context.price-and-shipping.label": "Τιμή και Αποστολή",
+  "store/buybox-context.custom-expression": "Προσαρμοσμένη Έκφραση",
+  "store/buybox-context.protocol": "Πρωτόκολλο",
+  "store/buybox-context.order-form.label": "Φόρμα παραγγελίας",
+  "store/buybox-context.seller-selector.label": "Επιλογέας Πωλητή",
+  "store/buybox-context.expression-title": "Παράσταση",
+  "store/buybox-context.expression-description": "Παραμετροποίηση έκφρασης για την κατάταξη των πωλητών: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Προέκυψε σφάλμα κατά την εκτέλεση του πρωτοκόλλου και η στρατηγική ταξινόμησης άλλαξε σε κατά τιμή."
+}

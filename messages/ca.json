@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Context de Buybox",
+  "store/buybox-context.sortStrategy-title": "Estratègia d'ordenació",
+  "store/buybox-context.sortStrategy-description": "Configureu l'estratègia per classificar els venedors a Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Activeu un esdeveniment de canvi de codi postal",
+  "store/buybox-context.triggerCepChangeEvent-description": "Configureu l'esdeveniment que s'utilitzarà per classificar els venedors a Buybox",
+  "store/buybox-context.price.label": "Preu",
+  "store/buybox-context.price-and-shipping.label": "Preu i enviament",
+  "store/buybox-context.custom-expression": "Expressió personalitzada",
+  "store/buybox-context.protocol": "Protocol",
+  "store/buybox-context.order-form.label": "Formulari de comanda",
+  "store/buybox-context.seller-selector.label": "Selector de venedor",
+  "store/buybox-context.expression-title": "Expressió",
+  "store/buybox-context.expression-description": "Configureu les expressions per classificar els venedors: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "S'ha produït un error en executar el protocol d'ordenació i l'estratègia d'ordenació s'ha canviat a Preu."
+}

@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Vsebina Buybox",
+  "store/buybox-context.sortStrategy-title": "Strategija razvrščanja",
+  "store/buybox-context.sortStrategy-description": "Konfigurirajte strategijo za razvrščanje prodajalcev v Buybox",
+  "store/buybox-context.triggerCepChangeEvent-title": "Sproži dogodek spremembe poštne številke",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurirajte, kateri dogodek bo uporabljen za razvrščanje prodajalcev v Buybox",
+  "store/buybox-context.price.label": "Cena",
+  "store/buybox-context.price-and-shipping.label": "Cena in dostava",
+  "store/buybox-context.custom-expression": "Izraz po meri",
+  "store/buybox-context.protocol": "Protokol",
+  "store/buybox-context.order-form.label": "Obrazec za naročilo",
+  "store/buybox-context.seller-selector.label": "Izbirnik prodajalca",
+  "store/buybox-context.expression-title": "Izraz",
+  "store/buybox-context.expression-description": "Konfigurirajte izraze za razvrščanje prodajalcev: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Med izvajanjem protokola razvrščanja je prišlo do napake in strategija razvrščanja je bila spremenjena na ceno."
+}

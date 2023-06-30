@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Arabic, Czech, Danish, German, Indonesian, Polish, Russian, Slovakian and Ukrainian translations.
+- Arabic, Czech, Catalan, Danish, Finnish, German, Greek, Indonesian, Norwegian, Polish, Russian, Slovakian, Slovenian and Ukrainian translations.
 
 ## [1.0.5] - 2023-06-07
 
