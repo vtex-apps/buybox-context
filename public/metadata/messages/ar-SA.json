@@ -1,0 +1,15 @@
+{
+  "name": "Buybox",
+  "headline": "Display a product with different sellers, featuring the best offer",
+  "overview": "With this app, you will be able to define seller eligibility rules for a product and feature the best offer to the customer.",
+  "additionalInformation": "After installing this app, you must configure it in the store theme, in a product context.",
+  "features": [
+    "Rank sellers of a product based on custom criteria",
+    "Create your own sorting strategy using expressions with product attributes",
+    "Flexibility to use predefined or custom sorting settings"
+  ],
+  "websiteURL": "https://vtex.com/",
+  "support": {
+    "url": "https://support.vtex.com/hc/requests"
+  }
+}
