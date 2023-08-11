@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Kontext Buybox",
+  "store/buybox-context.sortStrategy-title": "Strategie třídění",
+  "store/buybox-context.sortStrategy-description": "Konfigurovat strategie pro řazení prodejců v Buyboxu",
+  "store/buybox-context.triggerCepChangeEvent-title": "Spustit událost změny PSČ",
+  "store/buybox-context.triggerCepChangeEvent-description": "Konfigurovat, která událost bude použita pro řazení prodejců v Buyboxu",
+  "store/buybox-context.price.label": "Cena",
+  "store/buybox-context.price-and-shipping.label": "Cena a doprava",
+  "store/buybox-context.custom-expression": "Vlastní výraz",
+  "store/buybox-context.protocol": "Protokol",
+  "store/buybox-context.order-form.label": "Objednávkový formulář",
+  "store/buybox-context.seller-selector.label": "Výběr prodejce",
+  "store/buybox-context.expression-title": "Výraz",
+  "store/buybox-context.expression-description": "Konfigurovat výrazy pro řazení prodejců: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Při provádění řadícího protokolu došlo k chybě a strategie třídění byla změněna na cenu."
+}

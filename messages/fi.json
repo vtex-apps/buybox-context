@@ -1,0 +1,16 @@
+{
+  "store/buybox-context.title": "Buyboxin konteksti",
+  "store/buybox-context.sortStrategy-title": "Lajittelustrategia",
+  "store/buybox-context.sortStrategy-description": "Määritä strategia myyjien järjestämiseksi Buyboxissa",
+  "store/buybox-context.triggerCepChangeEvent-title": "Laukaise postinumeron muutos tapahtuma",
+  "store/buybox-context.triggerCepChangeEvent-description": "Määritä, mikä tapahtuma käytetään myyjien järjestämiseen Buyboxissa",
+  "store/buybox-context.price.label": "Hinta",
+  "store/buybox-context.price-and-shipping.label": "Hinta ja toimitus",
+  "store/buybox-context.custom-expression": "Mukautettu ilmaisu",
+  "store/buybox-context.protocol": "Protokolla",
+  "store/buybox-context.order-form.label": "Tilauslomake",
+  "store/buybox-context.seller-selector.label": "Myyjän valitsija",
+  "store/buybox-context.expression-title": "Lauseke",
+  "store/buybox-context.expression-description": "Määritä lausekkeet myyjien järjestämiseen: productPrice, productSpotPrice, productAvailableQuantity, minShippingPrice, maxShippingPrice, minShippingEstimate, maxShippingEstimate",
+  "store/buybox-context.protocol-error": "Lajitteluprotokollaa suorittaessa tapahtui virhe, ja lajittelustrategia vaihdettiin hintaan."
+}
