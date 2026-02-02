@@ -2,10 +2,7 @@
 
 # Buybox Context
 
-##  ⚠️ Maintenance ⚠️
-*Starting June 1st 2023, this application will no longer be maintained by VTEX.*
-
----
+[<i class="fa-brands fa-github"></i> Source code](https://github.com/vtex-apps/buybox-context)
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -14,6 +11,8 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
+
+> ⚠️ This app is no longer maintained by VTEX. This means support and maintenance are no longer provided.
 
 Buybox context is a component to add the possibility to sort the sellers of a product that is sold by multiple sellers.
 When Buybox context wrap a Product context, it change the ordenation of sellers and set the new `sellerDefault` on seller list of current product.
